@@ -25,3 +25,5 @@ const merge = (left, right) => {
 
     return [...result, ...left.slice(i), ...right.slice(j)];
 }
+
+export { mergeSort };
